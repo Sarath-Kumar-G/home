@@ -11,8 +11,8 @@ projectsSection.innerHTML = `
                     <p>Developed a clone of <a href="https://vedix.com/"
                     style="color: #FFF; text-decoration: underline;" target="_blank">Vedix</a> website.<p >
                         <br >
-                        Implimented maximum features of Vedix along with 2 Developers in 5 Days. We have made Project 
-                        into Chunks and Assigned particular part to one. Group meets were arranged through out project to plan the Day accordingly.  </p>
+                        Implemented maximum features of Vedix along with 2 Developers in 5 Days. We have made projects
+                        into Chunks and Assigned particular parts to one. Group meets were arranged throughout the project to plan the Day accordingly.  </p>
                         <br>
                         <u style="font-weight:bold;">TechStack :- </u>
                         <br>
@@ -49,7 +49,8 @@ projectsSection.innerHTML = `
                         <p>Developed a clone of <a href="https://vedix.com/"
                                 style="color: #FFF; text-decoration: underline;" target="_blank">Vedix</a> website.</p>
                         <br >
-                        <p>it's Coloberative project, Built with 5 developers in 5 days. We have Implimented basic and required features of Vedix Website. Like, Sign-in/Sign-UP, Product page, Skin and Hair Quizzes for better filtration for Suitable issue.  </p>
+                        <p>it's a Collaborative project, Built with 5 developers in 5 days. We have Implemented the basic 
+                        and required features of the Vedix Website. Like, as Sign-in/Sign-UP, Product page, Skin and Hair Quizzes for better filtration for Suitable an issue.</p>
                         <br>
                         <u style="font-weight:bold;">TechStack :- </u>
                         <br>
@@ -70,7 +71,7 @@ projectsSection.innerHTML = `
                 </div>
             </div>
 
-            <!-- lybrate project -->
+            <!-- walmart - clone -->
             <div class="eachProjectDiv">
                 <p class="ProjectName">Walmart - Clone</p>
                 <div class="ProjectContainer">
@@ -81,8 +82,8 @@ projectsSection.innerHTML = `
                         <p>Developed a clone of <a href="https://www.walmart.com/"
                                 style="color: #FFF; text-decoration: underline;" target="_blank">Walmart</a> website.</p>
                         <br >
-                        <p>Walmart is an e-Commerce website. Along with 6 Developers project Walmart was initiated. 
-                        Build this clone in 5 days, We have implimented Sliding images, Product page, 
+                        <p>Walmart is an e-Commerce website. Along with 6 Developers, the project Walmart was initiated.
+                        Build this clone in 5 days, We have implemented Sliding images, a Product page,
                         Cart page, and Checkout page by Using Pure JavaScript.</p>
                         </p>
                         <br>
