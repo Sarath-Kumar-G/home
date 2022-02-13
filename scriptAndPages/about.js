@@ -2,7 +2,7 @@ let about = document.getElementById("about")
 about.innerHTML = `
 <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">/ ABOUT /</h2>
+            <h2 class="title"> / ABOUT / </h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="images/sarath_profile.JPG" alt=""
