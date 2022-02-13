@@ -1,7 +1,7 @@
 let skills = document.getElementById("skills");
 skills.innerHTML = `
 <div class="max-width">
-<h2 class="title">SKILLS</h2>
+<h2 class="title">/ SKILLS /</h2>
 <div class="SkillsContent">
 
     <div>
