@@ -4,7 +4,7 @@ $(document).ready(function () {
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
             document.getElementById("partOneName").innerText = null
-            document.getElementById("userName").innerText = "Sarath Kumar G"
+            document.getElementById("userName").innerText = "Sarath G"
         } else {
             $('.navbar').removeClass("sticky");
             document.getElementById("partOneName").innerText = null
@@ -40,14 +40,14 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Full-Stack Web Developer. ", "Passinated Web Developer"],
+        strings: ["Full-Stack Web Developer. ", "Passinated Web Developer."],
         typeSpeed: 100,
         backSpeed: 90,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Full-Stack Web Developer. ", "Passinated Web Developer"],
+        strings: ["Full-Stack Web Developer. ", "Passinated Web Developer."],
         typeSpeed: 100,
         backSpeed: 90,
         loop: true
