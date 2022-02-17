@@ -40,14 +40,14 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Full-Stack Web Developer. ", "Passionate Web Developer. "],
+        strings: ["Full-Stack Web Developer. ", "Passionate Web Developer."],
         typeSpeed: 100,
         backSpeed: 90,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Full-Stack Web Developer. ", "Passionate Web Developer. "],
+        strings: ["Full-Stack Web Developer. ", "Passionate Web Developer."],
         typeSpeed: 100,
         backSpeed: 90,
         loop: true
