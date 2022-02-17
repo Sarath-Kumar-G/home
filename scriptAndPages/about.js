@@ -9,7 +9,7 @@ about.innerHTML = `
                         style="border-radius: 300px; background-color: rgba(146, 139, 139, 0.068);">
                 </div>
                 <div class="column right">
-                    <div class="text">This is Sarath,  I'm a <span class="typing-2"></span></div>
+                    <div class="text"> I'm Sarath</div>
                     <p>Full Stack Web Developer and capable of building Projects with specialization of MERN Stack. Excited to work and collaborate with others in the World of Tech.
                     <br>
                     Eager to take a responsible role within an inspiring organization, and deliver
