@@ -1,8 +1,8 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-body{
+body {
   background-color: #181a1b;
-  color:white ;
+  color: white;
 }
 * {
   margin: 0;
@@ -276,7 +276,7 @@ section .title::after {
 }
 .iconsAboutSection i {
   color: crimson;
-  padding:3px;
+  padding: 3px;
 }
 .iconsAboutSection {
   color: #5b7cbe;
@@ -409,8 +409,7 @@ section .title::after {
 
 .skills .title::after {
   content: "What I Know";
-  background:#181a1b ;
-
+  background: #181a1b;
 }
 
 /* contact section styling */
@@ -452,7 +451,7 @@ section .title::after {
 }
 .sub-title a {
   color: #5b7cbe;
-}  
+}
 .contact .right form .fields {
   display: flex;
 }
@@ -613,11 +612,7 @@ footer span a:hover {
     margin-bottom: 20px;
   }
   /* contact form removed */
-  /* .contact .contact-content .column {
-    width: 100%;
-    /* border: 1px solid; */
-  /* margin-bottom: 35px; */
-  /* } */
+
   */ .SkillsContent {
     grid-template-columns: 40% 40%;
   }
@@ -655,6 +650,9 @@ footer span a:hover {
   }
   .SkillsContent {
     grid-template-columns: (49% 49%);
+  }
+  section {
+    padding: 50px 0;
   }
 }
 
