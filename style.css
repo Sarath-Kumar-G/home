@@ -1,8 +1,8 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-body{
+body {
   background-color: #181a1b;
-  color:white ;
+  color: white;
 }
 * {
   margin: 0;
@@ -31,7 +31,7 @@ html {
 
 /* all similar content styling codes */
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .max-width {
   max-width: 1300px;
@@ -45,6 +45,9 @@ section {
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
+}
+a {
+  color: #4e3897 !important;
 }
 .about .about-content,
 .services .serv-content,
@@ -79,7 +82,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: #4e3897;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -95,8 +98,8 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .navbar.sticky {
-  padding: 15px 0;
-  background: crimson;
+  padding: 30px 0;
+  background: #4e3897;
 }
 .navbar .max-width {
   display: flex;
@@ -109,7 +112,7 @@ section .title::after {
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: crimson;
+  color: #4e3897;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -128,7 +131,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: crimson;
+  color: #4e3897;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -141,11 +144,14 @@ section .title::after {
   cursor: pointer;
   display: none;
 }
+.sticky .menu-btn {
+  color: white !important;
+}
 .scroll-up-btn {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background: #4e3897;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -201,23 +207,23 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: crimson;
+  color: #4e3897;
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: crimson;
+  background: #4e3897;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid #4e3897;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: crimson;
+  color: #4e3897;
   background: none;
 }
 
@@ -225,7 +231,7 @@ section .title::after {
 .about .title::after {
   content: "I'm...";
   background: #181a1b;
-  color: crimson;
+  color: #4e3897;
 }
 .about .about-content .left {
   width: 45%;
@@ -245,14 +251,14 @@ section .title::after {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: crimson;
+  color: #4e3897;
 }
 .about .about-content .right p {
   text-align: justify;
 }
 .about .about-content .right .resumeToDrive {
   display: inline-block;
-  background: crimson;
+  background: #4e3897;
   color: #fff;
   font-size: 20px;
   font-family: "Ubuntu", "sans-sarif";
@@ -260,23 +266,23 @@ section .title::after {
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid #4e3897;
   transition: all 0.3s ease;
 }
 .about .about-content .right .resumeToDrive:hover {
-  color: crimson;
+  color: #4e3897;
   background: none;
 }
 .mediaLinksAbout a {
-  color: crimson;
+  color: #4e3897;
   text-decoration: none;
   font-size: 30px;
   border-radius: 6px;
   margin-right: 15px;
 }
 .iconsAboutSection i {
-  color: crimson;
-  padding:3px;
+  color: #4e3897;
+  padding: 3px;
 }
 .iconsAboutSection {
   color: #5b7cbe;
@@ -288,10 +294,9 @@ section .title::after {
   grid-template-columns: repeat(3, 30%);
   justify-content: center;
   margin: auto;
-  /* background: black; */
 }
 .SkillsContent > div {
-  background: crimson;
+  background: #4e3897;
   margin: 10px 30px;
   padding: 10px 20px;
   display: flex;
@@ -361,8 +366,6 @@ section .title::after {
 }
 .ProjectImage > img {
   width: 100%;
-  /* object-fit:; */
-  /* height: 100%; */
 }
 .projectDescription {
   font-size: 17px;
@@ -370,8 +373,6 @@ section .title::after {
   font-family: "Ubuntu", "sans-sarif";
   line-height: 25px;
   word-spacing: 2px;
-  /* display: grid;
-  grid-template-columns: 100%; */
 }
 .techStackProject {
   display: flex;
@@ -393,24 +394,24 @@ section .title::after {
   font-family: "Ubuntu", "sans-sarif";
   border-radius: 5px;
   margin: 10px 20px;
-  border: 2px solid crimson;
-  background: crimson;
+  border: 2px solid #4e3897;
+  background: #4e3897;
   color: #fff;
 }
 
 .ProjectLinks > a > button:hover {
   cursor: pointer;
   background: #fff;
-  color: crimson;
+  color: #4e3897;
   box-shadow: 0px 0px 5px;
   transition: 0.8s;
 }
 /* skills section styling */
 
 .skills .title::after {
-  content: "What I Know";
-  background:#181a1b ;
-
+  content: "I worked on";
+  background: #181a1b;
+  backgroundcolor: white;
 }
 
 /* contact section styling */
@@ -442,7 +443,7 @@ section .title::after {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: crimson;
+  color: #4e3897;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -452,7 +453,7 @@ section .title::after {
 }
 .sub-title a {
   color: #5b7cbe;
-}  
+}
 .contact .right form .fields {
   display: flex;
 }
@@ -504,12 +505,12 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: #4e3897;
+  border: 2px solid #4e3897;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: crimson;
+  color: #4e3897;
   background: none;
 }
 
@@ -526,7 +527,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: crimson;
+  color: #4e3897;
   text-decoration: none;
 }
 footer span a:hover {

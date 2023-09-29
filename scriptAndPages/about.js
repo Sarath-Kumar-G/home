@@ -1,4 +1,4 @@
-let about = document.getElementById("about")
+let about = document.getElementById("about");
 about.innerHTML = `
 <section class="about" id="about">
         <div class="max-width">
@@ -26,7 +26,7 @@ about.innerHTML = `
                     </div>
                     
                     <a href='mailto:sarathg.in@gmail.com'>
-                        <p class="iconsAboutSection"><i class="fas fa-envelope"></i> sarathg.in@gmail.com</p>
+                        <p class="iconsAboutSection"><i class="fas fa-envelope"></i> sarathkumarg.in@gmail.com</p>
                     </a>
                     <a  href="tel:+91 8008850495">
                         <p class="iconsAboutSection"> <i class="fas fa-phone"></i> +91-8008850495</p>
