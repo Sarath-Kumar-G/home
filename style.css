@@ -614,11 +614,7 @@ footer span a:hover {
     margin-bottom: 20px;
   }
   /* contact form removed */
-  /* .contact .contact-content .column {
-    width: 100%;
-    /* border: 1px solid; */
-  /* margin-bottom: 35px; */
-  /* } */
+
   */ .SkillsContent {
     grid-template-columns: 40% 40%;
   }
@@ -656,6 +652,15 @@ footer span a:hover {
   }
   .SkillsContent {
     grid-template-columns: (49% 49%);
+  }
+  section {
+    padding: 50px 0;
+  }
+  .navbar {
+    padding: 20px 0;
+  }
+  .navbar.sticky {
+    padding: 20px 0;
   }
 }
 
