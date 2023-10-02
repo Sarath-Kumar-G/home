@@ -68,7 +68,6 @@ section .title {
   font-family: "Ubuntu", sans-serif;
 }
 section .title::before {
-  content: "";
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -228,11 +227,6 @@ section .title::after {
 }
 
 /* about section styling */
-.about .title::after {
-  content: "I'm...";
-  background: #181a1b;
-  color: #4e3897;
-}
 .about .about-content .left {
   width: 45%;
 }
@@ -259,7 +253,7 @@ section .title::after {
 .about .about-content .right .resumeToDrive {
   display: inline-block;
   background: #4e3897;
-  color: #fff;
+  color: #fff !important;
   font-size: 20px;
   font-family: "Ubuntu", "sans-sarif";
   font-weight: 500;
@@ -321,11 +315,6 @@ section .title::after {
 .services .title::before,
 .teams .title::before {
   background: #fff;
-}
-.services .title::after,
-.teams .title::after {
-  background: #111;
-  content: "Work";
 }
 
 .ProjectMainDiv {

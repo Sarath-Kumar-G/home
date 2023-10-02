@@ -40,7 +40,14 @@ skills.innerHTML = `
         <i class="fab fa-css3-alt"></i>
         <p>CSS</p>
     </div>
-   
+    <div>
+        <i class="fab fa-css3-alt"></i>
+        <p>Tailwind</p>
+    </div>
+    <div>
+        <i class="fas fa-database"></i>
+        <p>CMS (Storyblok)</p>
+    </div>
     <div>
         <i class="fab fa-node-js"></i>
         <p>ExpressJs</p>
