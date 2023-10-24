@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $(window).scroll(function () {
-    // sticky navbar on scroll script
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
       document.getElementById("partOneName").innerText = null;
@@ -8,11 +7,8 @@ $(document).ready(function () {
     } else {
       $(".navbar").removeClass("sticky");
       document.getElementById("partOneName").innerText = null;
-      // document.getElementById("userName").innerHTML = '<i class="fas fa-hospital-symbol" style="font-size:60px;"></i>'
-      // document.getElementById("userName").innerHTML = ' <img src="./images//1896921.svg" alt="">'
     }
 
-    // scroll-up button show/hide script
     if (this.scrollY > 500) {
       $(".scroll-up-btn").addClass("show");
     } else {
@@ -20,25 +16,20 @@ $(document).ready(function () {
     }
   });
 
-  // slide-up script
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
-    // removing smooth scroll on slide-up button click
     $("html").css("scrollBehavior", "auto");
   });
 
   $(".navbar .menu li a").click(function () {
-    // applying again smooth scroll on menu items click
     $("html").css("scrollBehavior", "smooth");
   });
 
-  // toggle menu/navbar script
   $(".menu-btn").click(function () {
     $(".navbar .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
   });
 
-  // typing text animation script
   var typed = new Typed(".typing", {
     strings: ["Full-Stack Web Developer. ", "Passionate Web Developer."],
     typeSpeed: 100,
