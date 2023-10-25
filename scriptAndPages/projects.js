@@ -2,7 +2,7 @@ let projectsSection = document.getElementById("mainDivProjectsSection");
 projectsSection.innerHTML = `
             <!-- vedix-clone 2.o -->
             <div class="eachProjectDiv MailChimp">
-                <p class="ProjectName ">Vedix-Clone - 2.0</p>
+                <p class="ProjectName ">Vedix-Clone</p>
                 <div class="ProjectContainer">
                     <div class="ProjectImage">
                         <img src="./images/vedix_2.0.png" alt=""/>
@@ -35,39 +35,6 @@ projectsSection.innerHTML = `
                         </div>
                     </div>
                     
-                </div>
-            </div>
-
-            <!-- vedix-clone -->
-            <div class="eachProjectDiv ">
-                <p class="ProjectName ">Vedix - Clone</p>
-                <div class="ProjectContainer">
-                    <div class="ProjectImage">
-                        <img src="./images/vedix_clone.png" alt="" />
-                    </div>
-                     <div class="projectDescription">
-                        <p>Developed a clone of <a href="https://vedix.com/"
-                                style="color: #FFF; text-decoration: underline;" target="_blank">Vedix</a> website.</p>
-                        <br >
-                        <p>it's a Collaborative project, Built with 5 developers in 5 days. We have Implemented the basic 
-                        and required features of the Vedix Website. Like, as Sign-in/Sign-UP, Product page, Skin and Hair Quizzes for better filtration for Suitable an issue.</p>
-                        <br>
-                        <u style="font-weight:bold;">TechStack :- </u>
-                        <br>
-                        <div class="techStackProject">
-                            <p><i class="fab fa-html5"></i> HTML</p>
-                            <p><i class="fab fa-css3-alt"></i> CSS</p>
-                            <p> <i class="fab fa-js-square"></i> AdvancedJS </p>
-                            
-                        </div>
-                        <div class="ProjectLinks">
-                            <a href="https://github.com/Sarath-194/vedix-clone"
-                                target="_blank"><button>
-                                    Github</button></a>
-                            <a href="https://sarath-194.github.io/vedix-clone/home-page/vedix_body.html" target="_blank"><button>Demo</button></a>
-
-                        </div>
-                    </div>
                 </div>
             </div>
 
