@@ -28,13 +28,7 @@ about.innerHTML = `
                     <a href='mailto:sarathg.in@gmail.com'>
                         <p class="iconsAboutSection"><i class="fas fa-envelope"></i> sarathkumarg.in@gmail.com</p>
                     </a>
-                    <a  href="tel:+91 8008850495">
-                        <p class="iconsAboutSection"> <i class="fas fa-phone"></i> +91-8008850495</p>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1v7ueHIdqoxfJSETYNBa7s3VROrrupKph/view?usp=sharing"
-                        target="_blank" class="resumeToDrive">
-                        Resume   
-                    </a>
+                    <a href="https://drive.google.com/file/d/1v7ueHIdqoxfJSETYNBa7s3VROrrupKph/view?usp=sharing" target="_blank" class="resumeToDrive">Resume</a>
                 </div>
             </div>
         </div>

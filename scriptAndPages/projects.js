@@ -1,6 +1,5 @@
 let projectsSection = document.getElementById("mainDivProjectsSection");
 projectsSection.innerHTML = `
-            <!-- vedix-clone 2.o -->
             <div class="eachProjectDiv MailChimp">
                 <p class="ProjectName ">Vedix-Clone</p>
                 <div class="ProjectContainer">
@@ -17,28 +16,21 @@ projectsSection.innerHTML = `
                         <u style="font-weight:bold;">TechStack :- </u>
                         <br>
                         <div class="techStackProject">
-
                             <p><i class="fab fa-js-square"></i> EJS</p>
                             <p><i class="fab fa-css3-alt"></i> CSS</p>
                             <p> <i class="fab fa-js-square"></i> JS </p>
                             <p> <i class="fab fa-node-js"></i> Node.JS </p>
                             <p> <i class="fas fa-database"></i> MongoDB </p>
                             <p> <i class="fab fa-node-js"></i> Express </p>
-                            
-                            
                         </div>
                         <div class="ProjectLinks">
-                        <a href="https://github.com/Sarath-194/vedix-clone-backend-express" target="_blank"><button>
-                        Github</button></a>
-                        <a href="https://vedix-clone-backend.herokuapp.com/" target="_blank"><button>Demo</button></a>
-
+                        <a href="https://github.com/Sarath-194/vedix-clone-backend-express" target="_blank"><button>Github</button></a>
                         </div>
                     </div>
                     
                 </div>
             </div>
 
-            <!-- walmart - clone -->
             <div class="eachProjectDiv">
                 <p class="ProjectName">Walmart - Clone</p>
                 <div class="ProjectContainer">
@@ -63,11 +55,7 @@ projectsSection.innerHTML = `
                             
                         </div>
                         <div class="ProjectLinks">
-                            <a href="https://github.com/Sarath-194/walmart"
-                                target="_blank"><button>
-                                    Github</button></a>
-                            <a href="https://sarath-194.github.io/walmart/body.html" target="_blank"><button>Demo</button></a>
-
+                            <a href="https://github.com/Sarath-194/walmart"target="_blank"><button>Github</button></a>
                         </div>
                     </div>
                 </div>
