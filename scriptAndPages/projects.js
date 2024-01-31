@@ -28,7 +28,7 @@ projectsSection.innerHTML = `
                             
                         </div>
                         <div class="ProjectLinks">
-                        <a href="https://github.com/Sarath-194/vedix-clone-backend-express" target="_blank"><button>
+                        <a href="https://github.com/Sarath-Kumar-G/vedix-clone-backend-express" target="_blank"><button>
                         Github</button></a>
                         <a href="https://vedix-clone-backend.herokuapp.com/" target="_blank"><button>Demo</button></a>
 
@@ -61,10 +61,11 @@ projectsSection.innerHTML = `
                             
                         </div>
                         <div class="ProjectLinks">
-                            <a href="https://github.com/Sarath-194/vedix-clone"
+                            <a href="https://github.com/Sarath-Kumar-G/vedix-clone"
                                 target="_blank"><button>
                                     Github</button></a>
-                            <a href="https://sarath-194.github.io/vedix-clone/home-page/vedix_body.html" target="_blank"><button>Demo</button></a>
+                            <a href="https://sarath-kumar-g.github.io/vedix-clone/home-page/vedix_body.html" target="_blank"><button>Demo</button></a>
+                            
 
                         </div>
                     </div>
@@ -96,10 +97,10 @@ projectsSection.innerHTML = `
                             
                         </div>
                         <div class="ProjectLinks">
-                            <a href="https://github.com/Sarath-194/walmart"
+                            <a href="https://github.com/Sarath-Kumar-G/walmart"
                                 target="_blank"><button>
                                     Github</button></a>
-                            <a href="https://sarath-194.github.io/walmart/body.html" target="_blank"><button>Demo</button></a>
+                            <a href="https://sarath-kumar-g.github.io/walmart/body.html" target="_blank"><button>Demo</button></a>
 
                         </div>
                     </div>

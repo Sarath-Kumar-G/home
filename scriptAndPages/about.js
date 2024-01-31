@@ -20,7 +20,7 @@ about.innerHTML = `
                          <a href="https://www.linkedin.com/in/sarath-g-98117a214/" target="_blank">
                         /    <i class="fab fa-linkedin"></i>
                         / </a>
-                        <a href="https://github.com/Sarath-194" target="_blank">
+                        <a href="https://github.com/Sarath-Kumar-G" target="_blank">
                         /     <i class="fab fa-github"></i>
                         / </a>
                     </div>
